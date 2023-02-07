@@ -16,11 +16,11 @@ int main() {
 	
 	
 	
-	if(a > b and c < a){
+	if(a > b and a > c){
 		cout << "El numero " << a << " es mayor a " << b << " y es mayor a " << c << endl;
 	}
 	else{
-		if(a < b and a < c){
+		if(b > a and b > c){
 			cout << "El numero " << b << " es mayor a " << a << " y es mayor a " << c << endl;
 		}
 		else{
@@ -32,4 +32,3 @@ int main() {
 	
 	return 0;
 }
-

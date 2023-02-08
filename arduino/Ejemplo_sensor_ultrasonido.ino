@@ -22,7 +22,8 @@ void loop() {
 
   distancia = duracion / 29;
 
-  Serial.println(distancia, "cm");
+  Serial.print(distancia);
+  Serial.println(".cm");
 
   delay(50);
 }
